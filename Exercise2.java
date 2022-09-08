@@ -57,16 +57,16 @@ public class Exercise2 {
 		driver.findElement(By.xpath("//span[@title='Mr.']")).click();
 
 		// Enter first name
-		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("seerthy");
+		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Priya");
 
 		// Enter last name
 
 		driver.findElement(By.xpath("(//div[@class='slds-form-element__control slds-grow']//input)[3]"))
-				.sendKeys("Seerthy");
+				.sendKeys("Priya");
 
 		// Enter email id
 		driver.findElement(By.xpath("//label[text()='Email']/following::input"))
-				.sendKeys("seerthy_electrica@yahoo.com");
+				.sendKeys("priya@idp.com");
 
 		// Create a New Account for Account Name
 
